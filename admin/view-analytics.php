@@ -5,7 +5,7 @@ session_start(); // Start the session
 if (!isset($_SERVER['HTTP_X_REQUESTED_WITH']) || strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest') {
     // If not an AJAX request, redirect to error.php
     ?>
-        <h1>This is a Restricted Page</h1>
+        <h1>You cant be on this page pls go out</h1>
     <?php
     exit(); // Stop further execution
 }
